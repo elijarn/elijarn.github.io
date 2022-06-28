@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header_text {
+    font-size: 30px;
+}
