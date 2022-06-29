@@ -1,15 +1,59 @@
-body {
-    height: 100vh;
+* {
     margin: 0;
 }
 
-.header {
+body {
+    height: 100vh;
+}
+
+.page {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-wrap: wrap;
 }
 
-.header_text {
+.header-text {
     font-size: 30px;
+}
+
+.photo-block {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+
+.text-block {
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Liberation Mono", monospace;
+}
+
+.fullname {
+    font-size: 30px;
+}
+
+.position {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.linkedin {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.linkedin-url {
+    margin-left: 10px;
+    text-decoration: none;
+    color: unset;
+}
+
+.linkedin-url:hover {
+    color: cornflowerblue;    
 }
